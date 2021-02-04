@@ -3,7 +3,7 @@
 
 ### Operations:
 
-- `You Can Perform Any Of The Operations Whichh Is Listed Below:`
+- `You Can Perform Any Of The Operation Which Is Listed Below:`
     - Check balance
     - Withdraw Money
     - Deposit Money
