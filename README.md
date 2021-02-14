@@ -1,7 +1,7 @@
 <h2 align="center">ATM-Machine WorkFlow &nbsp; &nbsp; &nbsp; <img src="Img/Logo.png" width="70px" ></h4>
 
 
-### Operations:
+### 💠 Operations:
 
 - `You Can Perform Any Of The Operation Which Is Listed Below:`
     - Check balance
@@ -10,10 +10,14 @@
     - Change ATM-Pin
     - Activate Your ATM-Service With OTP, That You Recieved From The Bank.
 
-### Sample Output:
+---
+
+### 💠 Sample Output:
 
 <p align="center">
   <img src="Img/Output.png" height="80%" width="80%">
 </p>
+
+---
 
 ⏩ GUI Version Of This Application Will Be Released Soon. 
