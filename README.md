@@ -8,7 +8,7 @@
     - Withdraw Money
     - Deposit Money
     - Change ATM-Pin
-    - Activate Your ATM-Service With The OTP You Got From Bank.
+    - Activate Your ATM-Service With OTP, That You Recieved From The Bank.
 
 ### Sample Output:
 
