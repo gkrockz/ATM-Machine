@@ -1,7 +1,7 @@
 <h2 align="center">ATM-Machine WorkFlow &nbsp; &nbsp; &nbsp; <img src="Img/Logo.png" width="70px" ></h4>
 
 
-### 💠 Operations:
+### 🔁 Operations:
 
 - `You Can Perform Any Of The Operation Which Is Listed Below:`
     - Check balance
