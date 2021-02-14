@@ -1,3 +1,4 @@
+package atm;
 public class Account
 {
 	private double minbal;
@@ -8,12 +9,12 @@ public class Account
 	}
 	public void withdraw(double amount)
 	{
-		double t;
-		t = minbal;
-		t-=amount;
+		double totamt;
+		totamt = minbal;
+		totamt-=amount;
 		try
 		{
-			if(t<1000)
+			if(totamt<1000)
 			{
 				throw new MinimumBalanceException("Balance For This Type Of Account Can't Go Less Than 1000 Rs. ");
 			}
@@ -43,6 +44,11 @@ public class Account
 	{
 		this.mpin = mpin;
 		System.out.println("Your ATM Pin Has Been Sucessfully Changed.");
+	}
+	public void setMpin(int mpin , String Message) 
+	{
+		this.mpin = mpin;
+		System.out.println(Message);
 	}
 	
 	
