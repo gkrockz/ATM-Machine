@@ -22,7 +22,7 @@ public class AtmServices
 				nmpin1=cusinp.nextInt();
 				System.out.println("ReEnter Your Mpin :");
 				nmpin2=cusinp.nextInt();
-				if(nmpin1==nmpin1)
+				if(nmpin1==nmpin2)
 				{
 				Account newcus = new Account();
 				newcus.setMpin(nmpin1,"Your New ATM Pin Have Been Set Sucessfully.");
