@@ -35,7 +35,7 @@ public class AtmServices
 			else
 			{
 				System.out.println("You Have Entered Wrong OTP.Please Try Again");
-				attempt--;
+				attempt-=1;
 				System.out.println(attempt+" More Attempts Remaining For Today.");
 			}
 		}
