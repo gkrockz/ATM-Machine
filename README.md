@@ -19,4 +19,4 @@
 
 ---
 
-↔ `Note:` **As This Application Is Not A Chip-Enabled ATM, You Need To Enter Your Customer Id, Instead Of Swiping In Your Credit/Debit Card Into The Machine.**
+↔ `**Note:**` As This Application Is Not A Chip-Enabled ATM, You Need To Enter Your Customer Id, Instead Of Swiping In Your Credit/Debit Card Into The Machine.
