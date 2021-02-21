@@ -1,14 +1,13 @@
 <h2 align="center">ATM-Machine WorkFlow &nbsp; &nbsp; &nbsp; <img src="Img/Logo.png" width="70px" ></h4>
 
 
-### 🔁 Operations:
+### 🔄 Operations:
 
-- `You Can Perform Any Of The Operation Which Is Listed Below:`
+- `You Can Perform Any Of The Operation In The ATM, Which Is Listed Below:`
     - Check balance
-    - Withdraw Money
     - Deposit Money
+    - Withdraw Money
     - Change ATM-Pin
-    - Activate Your ATM-Service With OTP, That You Recieved From The Bank.
 
 ---
 
@@ -20,4 +19,4 @@
 
 ---
 
-⏩ GUI Version Of This Application Will Be Released Soon. 
+`↔ Note :`This CLI Version  Of This Application, Is Connected With Database For Now, GUI Version Of This Application Will Be Released Later .
