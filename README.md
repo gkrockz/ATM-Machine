@@ -3,7 +3,7 @@
 
 ### 🔄 Operations:
 
-- `You Can Perform Any Of The Operation In The ATM, Which Is Listed Below:`
+- `You Can Perform Any Of The Operation In The CLI-ATM, Which Is Listed Below:`
     - Check balance
     - Deposit Money
     - Withdraw Money
@@ -19,4 +19,4 @@
 
 ---
 
-`↔ Note :`This CLI Version  Of This Application, Is Connected With Database For Now, GUI Version Of This Application Will Be Released Later .
+↔ `Note:` **As This Application Is Not A Chip-Enabled ATM, You Need To Enter Your Customer Id, Instead Of Swiping In Your Credit/Debit Card Into The Machine.**
