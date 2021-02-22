@@ -19,8 +19,8 @@ public class Account {
 		try {
 			connect();
 			cusid = fetchUser();
-			String BalQuery = "select balance from users where id=(?)";
-			st = concobj.prepareStatement(BalQuery);
+			String Query1 = "select balance from users where id=(?)";
+			st = concobj.prepareStatement(Query1);
 			st.setInt(1, cusid);
 			rs = st.executeQuery();
 			while (rs.next()) {
@@ -42,8 +42,8 @@ public class Account {
 			cusid = fetchUser();
 			System.out.println("Enter Deposit Amount: ");
 			depAmt = usrinp.nextInt();
-			String depQuery = "update users set balance=balance+(?) where id=(?)";
-			st = concobj.prepareStatement(depQuery);
+			String Query2 = "update users set balance=balance+(?) where id=(?)";
+			st = concobj.prepareStatement(Query2);
 			st.setDouble(1, depAmt);
 			st.setInt(2, cusid);
 			count = st.executeUpdate();
@@ -68,8 +68,8 @@ public class Account {
 				throw new MinimumBalanceException("Balance For This Account Can't Go Less Than 1000 Rs. ");
 			} else {
 				totamt -= withAmt;
-				String withdrwQuery = "update users set balance = (?) where id=(?)";
-				wst = concobj.prepareStatement(withdrwQuery);
+				String Query3 = "update users set balance = (?) where id=(?)";
+				wst = concobj.prepareStatement(Query3);
 				wst.setDouble(1, totamt);
 				wst.setInt(2, cusid);
 				count = wst.executeUpdate();
@@ -91,8 +91,8 @@ public class Account {
 			System.out.println("Enter Your 4-Digit Pin:");
 			pin = usrinp.nextInt();
 			if (validateUser(cusid)) {
-				String getusrQuery = "select name from users where id=(?)";
-				st = concobj.prepareStatement(getusrQuery);
+				String Query4 = "select name from users where id=(?)";
+				st = concobj.prepareStatement(Query4);
 				st.setInt(1, cusid);
 				rs = st.executeQuery();
 				while (rs.next()) {
@@ -113,8 +113,8 @@ public class Account {
 	public double checkbalance(int cusid) {
 		try {
 			connect();
-			String BalQuery = "select balance from users where id=(?)";
-			st = concobj.prepareStatement(BalQuery);
+			String Query5 = "select balance from users where id=(?)";
+			st = concobj.prepareStatement(Query5);
 			st.setInt(1, cusid);
 			rs = st.executeQuery();
 			while (rs.next()) {
@@ -130,8 +130,8 @@ public class Account {
 	public boolean validateUser(int CusId) {
 		try {
 			connect();
-			String validateQuery = "select id,pin from users where id = (?)";
-			st = concobj.prepareStatement(validateQuery);
+			String Query6 = "select id,pin from users where id = (?)";
+			st = concobj.prepareStatement(Query6);
 			st.setInt(1, CusId);
 			rs = st.executeQuery();
 			while (rs.next()) {
@@ -154,8 +154,8 @@ public class Account {
 			cusid = fetchUser();
 			System.out.println("Enter Your Old Pin:");
 			pin = usrinp.nextInt();
-			String Query6 = "select pin from users where id = (?);";
-			st = concobj.prepareStatement(Query6);
+			String Query7 = "select pin from users where id = (?);";
+			st = concobj.prepareStatement(Query7);
 			st.setInt(1, cusid);
 			rs = st.executeQuery();
 			while (rs.next()) {
@@ -181,8 +181,8 @@ public class Account {
 // Method That Updates ATM Pin Of Users.	
 	public void setpin(int cusid, int pin) {
 		try {
-			String query7 = "update users set pin = (?) where id=(?)";
-			st = concobj.prepareStatement(query7);
+			String Query8 = "update users set pin = (?) where id=(?)";
+			st = concobj.prepareStatement(Query8);
 			st.setInt(1, pin);
 			st.setInt(2, cusid);
 			count = st.executeUpdate();
