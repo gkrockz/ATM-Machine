@@ -1,11 +1,12 @@
 import java.util.Scanner;
 
-public class AtmMachine {
+public class AtmMachine 
+{
 
 	public static void main(String[] args)
 
 	{
-		Account acc = new Account();
+		UserAccount user = new UserAccount();
 		System.out.println("Welcome To Pro.Dev ATM,Choose Any Of The Options Below:");
 		System.out.println("1.Balance");
 		System.out.println("2.Deposit");
@@ -17,18 +18,18 @@ public class AtmMachine {
 			usrch = usrinp.nextShort();
 			switch (usrch) {
 			case 1:
-				acc.getBalance();
+				user.getBalance();
 				break;
 
 			case 2:
-				acc.deposit();
+				user.deposit();
 				break;
 
 			case 3:
-				acc.withdraw();
+				user.withdraw();
 				break;
 			case 4:
-				acc.changePin();
+				user.changePin();
 				break;
 			}
 		} catch (Exception error) {
