@@ -11,7 +11,7 @@
 
 ---
 
-### 💠 Sample Output:
+### ↔ Sample Output:
 
 <p align="center">
   <img src="Img/Output.png" height="80%" width="80%">
