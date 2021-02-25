@@ -17,20 +17,10 @@ public class AtmMachine
 		try {
 			usrch = usrinp.nextShort();
 			switch (usrch) {
-			case 1:
-				user.getBalance();
-				break;
-
-			case 2:
-				user.deposit();
-				break;
-
-			case 3:
-				user.withdraw();
-				break;
-			case 4:
-				user.changePin();
-				break;
+				case 1 -> acc.getBalance();
+				case 2 -> acc.deposit();
+				case 3 -> acc.withdraw();
+				case 4 -> acc.changePin();
 			}
 		} catch (Exception error) {
 			System.out.println("Please Enter A Valid Input - From (1-4)");
