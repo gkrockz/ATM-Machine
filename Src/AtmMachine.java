@@ -12,9 +12,8 @@ public class AtmMachine
 		System.out.println("2.Deposit");
 		System.out.println("3.Withdrawal");
 		System.out.println("4.Change ATM-Pin");
-		Scanner usrinp = new Scanner(System.in);
-		short usrch;
-		try {
+		try (Scanner usrinp = new Scanner(System.in)) {
+			short usrch;
 			usrch = usrinp.nextShort();
 			switch (usrch) {
 				case 1 -> acc.getBalance();
@@ -24,8 +23,6 @@ public class AtmMachine
 			}
 		} catch (Exception error) {
 			System.out.println("Please Enter A Valid Input - From (1-4)");
-		} finally {
-			usrinp.close();
 		}
 
 	}
