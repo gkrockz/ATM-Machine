@@ -24,7 +24,7 @@ public class UserAccount {
 			rs = st.executeQuery();
 			while (rs.next()) {
 				totamt = rs.getDouble(1);
-				System.out.println("Total Balance: " + totamt + "Rs");
+				System.out.println("Available Balance: " + totamt + "Rs");
 			}
 		} catch (SQLException error) {
 			System.out.println("Error Occured During Fetching Balance : " + error);
