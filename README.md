@@ -3,7 +3,7 @@
 
 ### 🔄 Operations:
 
-- `You Can Perform Any Of The Operation In The CLI-ATM, Which Is Listed Below:`
+- `You can perform any of the operations which are listed below:`
     - Check balance
     - Deposit Money
     - Withdraw Money
@@ -19,5 +19,4 @@
 
 ---
 
-> **Note**: 
-As This Application Is Not A Chip-Enabled ATM, You Need To Enter Your Customer Id, Instead Of Swiping In Your Credit/Debit Card Into The Machine.
+> **Programming Language:** Java  &nbsp;&nbsp; **Database:** PostgreSQL 
